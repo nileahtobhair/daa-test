@@ -1,0 +1,101 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.cartIndicator {
+  color: #fff;
+  border: 1px solid #c4d52e;
+  background: #c4d52e;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -5px;
+  position: relative;
+  align-self: flex-start;
+}
+
+.itemList {
+  padding: 40px 0;
+}
+
+.item {
+  width: 430px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 10px;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(1, 56, 73, 0.87);
+  background-color: #fff;
+  color: #000;
+}
+
+.addedItem {
+  background-color: rgba(1, 56, 73, 0.87);
+  color: #fff;
+}
+
+.item img {
+  width: 75px;
+  border-radius: 2px;
+  height: 75px;
+}
+
+.itemContent {
+  display: flex;
+}
+
+.itemInfo {
+  padding: 0 10px;
+  text-align: left;
+}
+
+.item button {
+  border-radius: 22px;
+  border: none;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.addIcon {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.removeIcon {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+  .item {
+    width: 100%;
+  }
+
+  .itemList {
+    margin-bottom: 20px;
+  }
+}

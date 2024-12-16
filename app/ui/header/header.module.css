@@ -1,0 +1,9 @@
+.container {
+  border-bottom: 1px solid #c4d52e;
+  background-color: #c4d52e;
+  color: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+}

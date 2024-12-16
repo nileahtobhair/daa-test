@@ -1,6 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## DAA test solution
 
-## Getting Started
+Solution for an e-commerce app with the functionality to display a list of items and add and remove items from cart.
+
+I have built the app using a basic NextJS (javascript) template to which I have added npm packages for redux and heroicons for rendering svg icons.
+
+### Notes on implementation
+
+- The app should fufill all the listed requirements, including the two bonus features.
+- I decided to implement with NextJS as requested, but my experience with the framework is limited. Therefore there may be sub optimal uses of some features such as hydration or use of client vs server components for data fetching. I elected to implement the 'data fetching' as a simple json import.
+
+### Possible improvements
+
+- Testing. For time reasons I didn't implement any tests as it was not listed as part of the requirements. A good next step to improve the implementation would be to add some unit tests and setup the solution for e2e testing with something like cypress or playwright.
+- Component breakdown - I have attempted to breakdown into readable components with good data encapsulation practices. In production, this could be taken further with some of the elements, particularly things like the buttons, which could be added to a component library.
+
+## Running solution locally
 
 First, run the development server:
 
@@ -15,22 +29,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

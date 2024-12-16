@@ -1,0 +1,106 @@
+.page {
+  padding: 40px 20px;
+  text-align: center;
+  width: 1320px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.catalogueLink {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.backIcon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.empty {
+  margin: 30px auto;
+  width: 420px;
+}
+
+.product {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 0;
+}
+
+.productInfo {
+  padding: 0 15px;
+  text-align: left;
+}
+
+.productContent {
+  display: flex;
+}
+
+.product img {
+  width: 125px;
+  height: 125px;
+}
+
+.removeButton {
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+}
+
+.actions {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quantity,
+.actions p {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.quantity button {
+  border: none;
+  background-color: #fff;
+  height: 16px;
+}
+
+.quantityButtons {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.quantityButtons p {
+  margin: 0 5px;
+}
+
+.quantity svg {
+  width: 15px;
+  height: 15px;
+}
+
+.price {
+  margin-top: 10px;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .empty {
+    width: 100%;
+  }
+}
