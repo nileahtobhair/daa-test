@@ -1,6 +1,4 @@
 "use client";
-import styles from "./cart.module.css";
-
 import Link from "next/link";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
@@ -15,6 +13,8 @@ import {
   PlusCircleIcon,
   MinusCircleIcon,
 } from "@heroicons/react/24/outline";
+
+import styles from "./cart.module.css";
 
 export default function Cart() {
   const cartItems = useSelector((state) => state.cart.cartItems);

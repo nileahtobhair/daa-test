@@ -1,13 +1,12 @@
 "use client";
-import styles from "./items.module.css";
-
-import ItemsInfo from "@/data/items";
-
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, removeFromCart } from "@/lib/cartSlice";
 
+import ItemsInfo from "@/data/items";
 import Catalogue from "@/ui/catalogue/Catalogue";
+
+import styles from "./items.module.css";
 
 export default function Page() {
   const cartItems = useSelector((state) => state.cart.cartItems);

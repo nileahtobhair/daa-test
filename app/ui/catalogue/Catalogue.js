@@ -1,13 +1,12 @@
-import styles from "./catalogue.module.css";
 import Image from "next/image";
-
 import Link from "next/link";
-
 import {
   PlusCircleIcon,
   ShoppingCartIcon,
   XCircleIcon,
 } from "@heroicons/react/24/outline";
+
+import styles from "./catalogue.module.css";
 
 export default function Catalogue({
   products,
