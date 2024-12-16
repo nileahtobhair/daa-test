@@ -16,7 +16,15 @@ I have built the app using a basic NextJS (javascript) template to which I have 
 
 ## Running solution locally
 
-First, run the development server:
+Project is built using NextJS. To install dependencies:
+
+```bash
+npm install .
+# or
+yarn
+```
+
+Run the development server:
 
 ```bash
 npm run dev
