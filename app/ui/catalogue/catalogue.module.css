@@ -31,7 +31,7 @@
 }
 
 .itemList {
-  padding: 40px 0;
+  padding: 40px 0 10px 0;
 }
 
 .item {
@@ -93,9 +93,5 @@
 @media (max-width: 600px) {
   .item {
     width: 100%;
-  }
-
-  .itemList {
-    margin-bottom: 20px;
   }
 }

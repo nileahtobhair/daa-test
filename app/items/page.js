@@ -3,6 +3,7 @@ import styles from "./items.module.css";
 
 import ItemsInfo from "@/data/items";
 
+import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, removeFromCart } from "@/lib/cartSlice";
 
@@ -25,6 +26,9 @@ export default function Page() {
           addToCart={onAdd}
           removeFromCart={onRemove}
         />
+        <Link href={"/cart"} className={styles.cartLink}>
+          View Cart
+        </Link>
       </main>
     </div>
   );

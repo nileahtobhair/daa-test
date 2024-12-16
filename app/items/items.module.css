@@ -5,3 +5,12 @@
   max-width: 90%;
   margin: 0 auto;
 }
+
+.cartLink {
+  width: 430px;
+  max-width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: underline;
+}
